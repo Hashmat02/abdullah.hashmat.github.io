@@ -12,6 +12,41 @@
 
 <body class="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 text-gray-800 min-h-screen">
 
+
+    <!-- NAVBAR -->
+<nav class="fixed top-0 left-0 w-full bg-white/40 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
+      <!-- Logo / Name -->
+      <a href="#hero" class="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        Abdullah Hashmat
+      </a>
+  
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-8 text-gray-700 font-medium">
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#pakbbq" class="hover:text-blue-600 transition">PakBBQ Paper</a>
+        <a href="#research" class="hover:text-blue-600 transition">Research Interests</a>
+        <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+        <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+      </div>
+  
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+  
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden flex-col items-center space-y-4 pb-4 bg-white/70 backdrop-blur-md">
+      <a href="#about" class="block hover:text-blue-600 transition">About</a>
+      <a href="#pakbbq" class="block hover:text-blue-600 transition">PakBBQ Paper</a>
+      <a href="#research" class="block hover:text-blue-600 transition">Research</a>
+      <a href="#skills" class="block hover:text-blue-600 transition">Skills</a>
+      <a href="#projects" class="block hover:text-blue-600 transition">Projects</a>
+    </div>
+  </nav>
+  
+
     <!-- HERO -->
     <header id="hero"
         class="relative bg-gradient-to-br from-blue-500 via-indigo-400 to-purple-500 text-white text-center py-24 overflow-hidden">
@@ -598,6 +633,41 @@
                     </div>
                 </a>
 
+                 <!-- AI for All -->
+                 <a href="https://github.com/Hashmat02/Evaluating-Open-Source-LLMS-and-Transformer-Models-in-low-resources-settings.git"
+                 target="_blank"
+                 class="group bg-white/90 backdrop-blur-lg rounded-3xl overflow-hidden hover:scale-105 hover:rotate-1 hover:shadow-2xl transition-all duration-500 flex flex-col border border-gray-200/50">
+                 <div class="relative overflow-hidden">
+                     <img src="Images/wp12372437.jpg" alt="AI for All"
+                         class="w-full h-52 object-cover group-hover:scale-110 transition-transform duration-500">
+                     <div
+                         class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                     </div>
+                 </div>
+                 <div class="p-8 flex flex-col flex-grow">
+                     <div class="flex justify-between items-center text-sm mb-4">
+                         <span class="text-gray-500 font-medium">2024</span>
+                         <span
+                             class="bg-gradient-to-r from-orange-100 to-amber-100 text-orange-700 px-4 py-2 rounded-full font-semibold border border-orange-200">Low
+                             Resource NLP/Jailbreaking</span>
+                     </div>
+                     <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">
+                         AI for All</h3>
+                     <p class="text-gray-600 text-sm flex-grow leading-relaxed">Evaluating LLMs and transformers in
+                         low-resource languages with bias and jailbreak testing.</p>
+                     <p class="text-gray-600 text-sm mt-3 leading-relaxed">
+                         Assessed lightweight transformers and open-source LLMs on Sindhi, Pashto, and Urdu,
+                         analyzing robustness under
+                         perturbations and jailbreak attempts, with Llama 3-B reaching a 20% success rate.
+                     </p>
+                     <!-- <div class="flex flex-wrap gap-2 mt-6">
+                         <span class="tech-pill-light">LLMs</span>
+                         <span class="tech-pill-light">Transformers</span>
+                         <span class="tech-pill-light">Urdu NLP</span>
+                     </div> -->
+                 </div>
+             </a>
+
                 <!-- AI Stock Insights -->
                 <a href="https://github.com/HassanAli101/PSX-DataPortal.git" target="_blank"
                     class="group bg-white/90 backdrop-blur-lg rounded-3xl overflow-hidden hover:scale-105 hover:rotate-1 hover:shadow-2xl transition-all duration-500 flex flex-col border border-gray-200/50">
@@ -635,40 +705,7 @@
                 </a>
 
 
-                <!-- AI for All -->
-                <a href="https://github.com/Hashmat02/Evaluating-Open-Source-LLMS-and-Transformer-Models-in-low-resources-settings.git"
-                    target="_blank"
-                    class="group bg-white/90 backdrop-blur-lg rounded-3xl overflow-hidden hover:scale-105 hover:rotate-1 hover:shadow-2xl transition-all duration-500 flex flex-col border border-gray-200/50">
-                    <div class="relative overflow-hidden">
-                        <img src="Images/wp12372437.jpg" alt="AI for All"
-                            class="w-full h-52 object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <div class="flex justify-between items-center text-sm mb-4">
-                            <span class="text-gray-500 font-medium">2024</span>
-                            <span
-                                class="bg-gradient-to-r from-orange-100 to-amber-100 text-orange-700 px-4 py-2 rounded-full font-semibold border border-orange-200">Low
-                                Resource NLP</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">
-                            AI for All</h3>
-                        <p class="text-gray-600 text-sm flex-grow leading-relaxed">Evaluating LLMs and transformers in
-                            low-resource languages with bias and jailbreak testing.</p>
-                        <p class="text-gray-600 text-sm mt-3 leading-relaxed">
-                            Assessed lightweight transformers and open-source LLMs on Sindhi, Pashto, and Urdu,
-                            analyzing robustness under
-                            perturbations and jailbreak attempts, with Llama 3-B reaching a 20% success rate.
-                        </p>
-                        <!-- <div class="flex flex-wrap gap-2 mt-6">
-                            <span class="tech-pill-light">LLMs</span>
-                            <span class="tech-pill-light">Transformers</span>
-                            <span class="tech-pill-light">Urdu NLP</span>
-                        </div> -->
-                    </div>
-                </a>
+            
 
                 <!-- Data Science Chatbot -->
                 <a href="https://github.com/Hashmat02/DataScience-Chatbot.git" target="_blank"
@@ -685,7 +722,7 @@
                         <div class="flex justify-between items-center text-sm mb-4">
                             <span class="text-gray-500 font-medium">2024</span>
                             <span
-                                class="bg-gradient-to-r from-teal-100 to-cyan-100 text-teal-700 px-4 py-2 rounded-full font-semibold border border-teal-200">AI</span>
+                                class="bg-gradient-to-r from-teal-100 to-cyan-100 text-teal-700 px-4 py-2 rounded-full font-semibold border border-teal-200">Agentic AI</span>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-teal-600 transition-colors">
                             End-to-End Data Science Chatbot</h3>
@@ -719,7 +756,7 @@
                         <div class="flex justify-between items-center text-sm mb-4">
                             <span class="text-gray-500 font-medium">2024</span>
                             <span
-                                class="bg-gradient-to-r from-teal-100 to-cyan-100 text-teal-700 px-4 py-2 rounded-full font-semibold border border-teal-200">AI</span>
+                                class="bg-gradient-to-r from-teal-100 to-cyan-100 text-teal-700 px-4 py-2 rounded-full font-semibold border border-teal-200">Game Development</span>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-teal-600 transition-colors">
                             UNITY Platformer Game</h3>
@@ -1160,6 +1197,15 @@
                 }
             });
         }
+
+        // Mobile menu toggle
+const menuBtn = document.getElementById("menu-btn");
+const mobileMenu = document.getElementById("mobile-menu");
+
+menuBtn.addEventListener("click", () => {
+  mobileMenu.classList.toggle("hidden");
+});
+
 
         window.addEventListener('scroll', updateScrollIndicator);
         updateScrollIndicator(); 
